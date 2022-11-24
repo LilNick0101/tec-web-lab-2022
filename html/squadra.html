@@ -10,7 +10,7 @@
                                      <meta name="keywords" content="pallavolo, Italia, Giannelli ,Balaso ,Micheletto, Galassi, volley, maschile"/>
     <meta name="author" content="Nicola Ravagnan">
     <link rel="stylesheet" href="../css/style.css" media="handled, screen" /><!-- Type: tipo MIME da mettere sempre su XHTML solo se necessario su HTML5-->
-    <link rel="shortcut icon" type="image/png" href="../assets/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href=".../assets/favicon.ico"/>
     <link rel="stylesheet" href="../css/mini.css" media="handled, screen and (max-width:600px), only screen and (max-device-width:600px)"/>
     <link rel="stylesheet" href="../css/print.css" media="print"/>
 </head>
@@ -35,7 +35,7 @@
         <dl class="squadra"> <!-- Retro-compatibilità con XHTML -->
             <dt>Simone Giannelli - <em>Captiano</em></dt>
             <dd>
-                <img src="./assets/giannelli.jpg" width="100" height="150"/>
+                <img src="../assets/giannelli.jpg" width="100" height="150"/>
                 <dl class="giocatore">
                     <dt>Data di nascita:</dt>
                     <dd><time datetime="1996-08-09">09/8/1996</time></dd>
@@ -70,7 +70,7 @@
             </dd>
             <dt>Riccardo Sbetroli</dt>
             <dd>
-                <img src="./assets/sbertoli.jpg" width="170" height="110"/>
+                <img src="../assets/sbertoli.jpg" width="170" height="110"/>
                 <dl class="giocatore">
                     <dt>Data di nascita:</dt>
                     <dd><time datetime="1998-05-23">23/05/1998</time></dd>
@@ -94,7 +94,7 @@
             </dd>
             <dt>Fabio Balaso</dt>
             <dd>
-                <img src="./assets/balaso.jpg" width="140" height="150"/>
+                <img src="../assets/balaso.jpg" width="140" height="150"/>
                 <dl class="giocatore">
                     <dt>Data di nascita:</dt>
                     <dd><time datetime="1995-10-20">20/10/1995</time></dd>
@@ -123,7 +123,7 @@
             </dd>
             <dt>Fabio Balaso</dt>
             <dd>
-                <img src="./assets/scanferla.jpg" width="140" height="150"/>
+                <img src="../assets/scanferla.jpg" width="140" height="150"/>
                 <dl class="giocatore">
                     <dt>Data di nascita:</dt>
                     <dd><time datetime="1998-12-04">04/12/1998</time></dd>
@@ -145,7 +145,7 @@
             </dd>
             <dt>Alessandro Micheletto</dt>
             <dd>
-                <img src="./assets/michieletto.jpg" width="160" height="150"/>
+                <img src="../assets/michieletto.jpg" width="160" height="150"/>
                 <dl class="giocatore">
                     <dt>Data di nascita:</dt>
                     <dd><time datetime="2001-12-05">05/12/2001</time></dd>
@@ -167,7 +167,7 @@
             </dd>
             <dt>Davide Lavia</dt>
             <dd>
-                <img src="./assets/lavia.jpg" width="200" height="150"/>
+                <img src="../assets/lavia.jpg" width="200" height="150"/>
                 <dl class="giocatore">
                     <dt>Data di nascita:</dt>
                     <dd><time datetime="1999-11-04">04/11/1999</time></dd>
@@ -199,7 +199,7 @@
             </dd>
             <dt>Yuri Romanò</dt>
             <dd>
-                <img src="./assets/romano.jpg" width="200" height="150"/>
+                <img src="../assets/romano.jpg" width="200" height="150"/>
                 <dl class="giocatore">
                     <dt>Data di nascita:</dt>
                     <dd><time datetime="1997-07-26">26/07/1997</time></dd>
@@ -220,11 +220,97 @@
                 </dl>
             </dd>
         </dl>
+		<table id="tabellaSquadra" aria-describedby="tableDesc">
+			<caption>Giocatori</caption>
+			<thead>
+				<tr>
+					<th scope="col">Giocatore</th>
+					<th scope="col">Ruolo</th>
+					<th scope="col">Maglia </th>
+					<th scope="col">Punti</th>
+					<th scope="col">Squadra di provenienza</th>
+				</tr>
+			</thead>
+            <tbody>
+			    <tr>
+				    <th scope="row">Simone Giannelli</th>
+				    <td data-title="Ruolo">Palleggiatore</td>
+				    <td>6</td>
+				    <td>872</td>
+				    <td><span lang="en">Sir Safety</span> Susa Perugia</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Riccardo Sbertoli</th>
+				    <td data-title="Ruolo">Palleggiatore</td>
+				    <td>8</td>
+				    <td>393</td>
+				    <td>Itas Trentino</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Fabio Balaso</th>
+				    <td data-title="Ruolo">Libero</td>
+				    <td>7</td>
+				    <td>1606</td>
+				    <td>Cucine Lube Civitanova</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Leonardo Scanferla</th>
+				    <td data-title="Ruolo">Libero</td>
+				    <td>24</td>
+				    <td>623</td>
+				    <td><span>Gas Sales</span> Bluenergy Piacenza</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Simone Anzani</th>
+				    <td data-title="Ruolo">Centrale</td>
+				    <td>17</td>
+				    <td>2276</td>
+				    <td>Cucine Lube Civitanova</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Gianluca Galassi</th>
+				    <td data-title="Ruolo">Centrale</td>
+				    <td>14</td>
+				    <td>1144</td>
+				    <td>Vero Volley Monza</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Alessandro Michieletto</th>
+				    <td data-title="Ruolo">Schiacciatore</td>
+				    <td>5</td>
+				    <td>960</td>
+				    <td>Itas Trentino</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Daniele Lavia</th>
+				    <td data-title="Ruolo">Schiacciatore</td>
+				    <td>15</td>
+				    <td>1604</td>
+				    <td>Itas Trentino</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Yuri Romanò</th>
+				    <td data-title="Ruolo">Schiacciatore</td>
+				    <td>17</td>
+				    <td>1865</td>
+				    <td><span lang="en">Gas Sales</span> BluenergyPiacenza</td>
+			    </tr>
+            </tbody>
+			<tfoot>
+				<tr>
+					<th colspan="3" scope="row">Totale Punti</td>
+					<td data-title="Punti totali">11343</td>
+                    <td></td>
+				</tr>
+			</tfoot>
+            
+	</table>
+    <p id="tableDesc">Questa tabella mostra i membri della squadra con il loro nome, il loro ruolo, il loro numero di maglia, i punti ottenuti nel mondiale e la loro squadra di provenienza. In questa tabella è mostrato anche il totale punti della squadra</p>
      </main>
      <footer>
-        <img src="./assets/valid-xhtml10.png" alt="XHTML 1.0 valid">
+        <img src="../assets/valid-xhtml10.png" alt="XHTML 1.0 valid">
         <span>Nicola Ravagnan &amp; <em>Federazione Italiana Pallavolo all rights reserved</em></span>
-        <img src="./assets/vcss-blue.gif" alt="CSS">
+        <img src="../assets/vcss-blue.gif" alt="CSS">
     </footer>
 </body>
 </html>

@@ -246,6 +246,27 @@ SQUADRA
     border-radius: 0 20% 20% 0 /40%;
     margin: 0em 2em 1em 0em;
 }
+
+#tabellaSquadra thead,
+#tabellaSquadra tfoot{
+    color: var(--contentbgcolor);
+    background-color: var(--bgcolor);
+}
+
+#tabellaSquadra{
+    margin-top: 1em;
+}
+#tabellaSquadra caption{
+    font-size: 200%;
+    margin: 0.5em;
+    font-weight: bold;
+}
+
+#tabellaSquadra th,#tabellaSquadra td{
+    padding: 0.5em 0.3em;
+    border: #000 solid 2px;
+    margin: 0;
+}
 /*
 #0365AE
 #163F77
