@@ -30,3 +30,29 @@ footer{
 footer .imgValidCode{
     width: 20%;
 }
+
+#tabellaSquadra thead,#tabellaSquadra tfoot{
+    display: none;
+}
+
+#tabellaSquadra th,#tabellaSquadra td{
+    display: block;
+}
+
+#tabellaSquadra th{
+    color: var(--contentbgcolor);
+    background-color: var(--bgcolor);
+    
+}
+
+#tabellaSquadra td{
+    border-top: none;
+}
+
+#tabellaSquadra{
+    margin-left: 2em;
+}
+#tabellaSquadra td[data-title]:before{
+    content: attr(data-title) ': ';
+    font-weight: bold;
+}
