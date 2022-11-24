@@ -1,0 +1,195 @@
+/*
+GENERALE
+*/
+* {
+    padding: 0em;
+    margin: 0em;
+}
+
+a::after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+}
+
+html,body{
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    background-color: var(--bgcolor);
+}
+
+header {
+    padding: 1.0em 0em 1.0em 0em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+header h1{
+    content: url("../assets/logo_fipav.png");
+}
+header h2{
+    font-size: 1.1em;
+    padding: 0.5em;
+    margin-top: 0.3em;
+}
+
+main{
+    background-color: var(--contentbgcolor);
+    padding: 5%;
+}
+
+/*
+NAVIGAZIONE
+*/
+#menu{
+    display: none;
+}
+
+
+/*
+NEWS
+*/
+aside{
+    float: right;
+    width: 20%;
+    padding: 1.5em;
+    margin: 0.7em;
+    border: #000 solid 1px;
+}
+aside h2{
+    border: #000 solid 1px;
+    padding: 5%;
+    margin-bottom: .3em;
+}
+
+aside dt{
+    font-weight: bolder;
+}
+aside dd{
+    padding-left: 1.5em;
+}
+
+
+/*
+BREADCRUMB
+*/
+#breadcrumb{
+    font-size: 1.1em;
+    padding: .5em .6em;
+    border: 1px solid #000;
+}
+
+/*
+FOOTER
+*/
+footer{
+    margin: auto;
+    padding: 0.7em 0.7em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer *{
+    margin: 0.3em;
+}
+/*
+LISTS
+*/
+
+ul{
+    list-style: circle inside;
+}
+
+li{
+    padding: .1em 0em .1em;
+}
+
+main .accolades li{
+    list-style-image: url("../assets/favicon-16x16.png");
+}
+
+main ul{
+    padding: 0.5em;
+    margin-left: 1.5em;
+}
+main h1{
+    font-size: 200%;
+    padding-bottom: 5%;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+main h2{
+    font-size: 175%;
+    padding: 3% 0%;
+    line-height: 1.2em;
+}
+
+main p{
+    padding: 0.2em 0em;
+}
+
+main ul p{
+    padding: 0%;
+}
+main ul{
+    list-style: circle outside;
+    padding-left: 1em;
+}
+
+/*
+SQUADRA
+*/
+.squadra{
+    display: block;
+    width: 90%;
+    margin: 0em 2.3em;
+}
+.squadra>dd{
+    display: flex;
+    flex-direction: row;
+}
+.squadra img{
+    justify-content: center;
+    margin: 0.7em 2em;
+    border: var(--contentxtcolor) dashed 2px;
+}
+.squadra>dt{
+    margin-top: 1em;
+    padding: 0.7em;
+    font-size: large;
+    font-weight: bold;
+    border: #000 solid 2px;
+}
+.squadra>dd{
+    border: #000 solid 2px;
+    border-top: none;
+}
+
+.giocatore>dt, .giocatore>dd { 
+    float: left;
+    margin-left: 0.2em;
+}
+
+.giocatore>dt {
+    font-weight: bold;
+    clear: both;
+}
+
+#trainer{
+    float: left;
+    max-width: 40%;
+    shape-outside: margin-box;
+    border-radius: 0 20% 20% 0 /40%;
+    margin: 0em 2em 1em 0em;
+}
+footer img{
+    display: none;
+}
+/*
+#0365AE
+#163F77
+#F3C42B
+*/
