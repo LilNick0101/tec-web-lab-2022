@@ -262,7 +262,8 @@ SQUADRA
     font-weight: bold;
 }
 
-#tabellaSquadra th,#tabellaSquadra td{
+#tabellaSquadra th,
+#tabellaSquadra td{
     padding: 0.5em 0.3em;
     border: #000 solid 2px;
     margin: 0;
