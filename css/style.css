@@ -268,6 +268,11 @@ SQUADRA
     border: #000 solid 2px;
     margin: 0;
 }
+
+.tabNavHelp {
+    position: absolute;
+    left:-9999px;
+}
 /*
 #0365AE
 #163F77
