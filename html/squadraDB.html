@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Volley Tribute</title>
+    <meta name="description" content="Questa pagina è dedicata al campionato mondiale 
+                                     di pallavolo maschile 2022. Nel sito sono descritti 
+                                     i giocatori, l'allenatore e alcune regole e curiosità 
+                                     come il fairplay">
+                                     <meta name="keywords" content="pallavolo, Italia, Giannelli ,Balaso ,Micheletto, Galassi, volley, maschile"/>
+    <meta name="author" content="Nicola Ravagnan">
+    <link rel="stylesheet" href="../css/style.css" media="handled, screen" /><!-- Type: tipo MIME da mettere sempre su XHTML solo se necessario su HTML5-->
+    <link rel="shortcut icon" type="image/png" href=".../assets/favicon.ico"/>
+    <link rel="stylesheet" href="../css/mini.css" media="handled, screen and (max-width:600px), only screen and (max-device-width:600px)"/>
+    <link rel="stylesheet" href="../css/print.css" media="print"/>
+</head>
+<body>
+    <header>
+         <h1>Federazione Italiana Pallavolo</h1>
+         <h2>La pallavolo maschile Italiana</h2>
+     </header>
+     <nav id="breadcrumb">
+         <p>Ti trovi in: <span lang="en"><a href="index.html">Home</a></span> &gt;&gt; la squadra</p>
+     </nav>
+     <nav id="menu">
+         <ul>
+             <li lang="en"><a href="index.html">Home</a></li>
+             <li><a href="allenatore.html">L'allenatore</a></li>
+             <li  id="currentLink">La squadra</li>
+             <li><a href="fairplay.html">Il <span lang="en">fairplay</span></a></li>
+         </ul>
+     </nav>
+     <main>
+        <h1>La squadra</h1>
+
+         <playerList />
+        <p id="tableDesc" class="tabNavHelp">Questa tabella mostra i membri della squadra con il loro nome, il loro ruolo, il loro numero di maglia, i punti ottenuti nel mondiale e la loro squadra di provenienza. In questa tabella è mostrato anche il totale punti della squadra</p>
+		<table id="tabellaSquadra" aria-describedby="tableDesc">
+			<caption>Giocatori</caption>
+			<thead>
+				<tr>
+					<th scope="col">Giocatore</th>
+					<th scope="col">Ruolo</th>
+					<th scope="col">Maglia </th>
+					<th scope="col">Punti</th>
+					<th scope="col">Squadra di provenienza</th>
+				</tr>
+			</thead>
+            <tbody>
+			    <tr>
+				    <th scope="row">Simone Giannelli</th>
+				    <td data-title="Ruolo">Palleggiatore</td>
+				    <td data-title="Maglia">6</td>
+				    <td data-title="Punti">872</td>
+				    <td data-title="Squadra di provenienza"><span lang="en">Sir Safety</span> Susa Perugia</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Riccardo Sbertoli</th>
+				    <td data-title="Ruolo">Palleggiatore</td>
+				    <td data-title="Maglia">8</td>
+				    <td data-title="Punti">393</td>
+				    <td data-title="Squadra di provenienza">Itas Trentino</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Fabio Balaso</th>
+				    <td data-title="Ruolo">Libero</td>
+				    <td data-title="Maglia">7</td>
+				    <td data-title="Punti">1606</td>
+				    <td data-title="Squadra di provenienza">Cucine Lube Civitanova</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Leonardo Scanferla</th>
+				    <td data-title="Ruolo">Libero</td>
+				    <td data-title="Maglia">24</td>
+				    <td data-title="Punti">623</td>
+				    <td data-title="Squadra di provenienza"><span lang="en">Gas Sales Bluenergy</span>  Piacenza</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Simone Anzani</th>
+				    <td data-title="Ruolo">Centrale</td>
+				    <td data-title="Maglia">17</td>
+				    <td data-title="Punti">2276</td>
+				    <td data-title="Squadra di provenienza">Cucine Lube Civitanova</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Gianluca Galassi</th>
+				    <td data-title="Ruolo">Centrale</td>
+				    <td data-title="Maglia">14</td>
+				    <td data-title="Punti">1144</td>
+				    <td data-title="Squadra di provenienza">Vero Volley Monza</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Alessandro Michieletto</th>
+				    <td data-title="Ruolo">Schiacciatore</td>
+				    <td data-title="Maglia">5</td>
+				    <td data-title="Punti">960</td>
+				    <td data-title="Squadra di provenienza">Itas Trentino</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Daniele Lavia</th>
+				    <td data-title="Ruolo">Schiacciatore</td>
+				    <td data-title="Maglia">15</td>
+				    <td data-title="Punti">1604</td>
+				    <td data-title="Squadra di provenienza">Itas Trentino</td>
+			    </tr>
+			    <tr>
+				    <th scope="row">Yuri Romanò</th>
+				    <td data-title="Ruolo">Schiacciatore</td>
+				    <td data-title="Maglia">17</td>
+				    <td data-title="Punti">1865</td>
+				    <td data-title="Squadra di provenienza"><span lang="en">Gas Sales Bluenergy</span> Piacenza</td>
+			    </tr>
+            </tbody>
+			<tfoot>
+				<tr>
+					<th colspan="3" scope="row">Totale Punti</td>
+					<td data-title="Punti totali">11343</td>
+                    <td></td>
+				</tr>
+			</tfoot>
+            
+	</table>
+    
+     </main>
+     <footer>
+        <img src="../assets/valid-xhtml10.png" alt="XHTML 1.0 valid">
+        <span>Nicola Ravagnan &amp; <em>Federazione Italiana Pallavolo all rights reserved</em></span>
+        <img src="../assets/vcss-blue.gif" alt="CSS">
+    </footer>
+</body>
+</html>
