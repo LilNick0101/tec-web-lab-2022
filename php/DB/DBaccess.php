@@ -3,11 +3,12 @@
 namespace DB;
 
 class DBaccess{
-
-    private const DB_NAME = "nravagna";
-    private const USERNAME = "nravagna";
-    private const ADDRESS = "127.0.0.1:8080";
-    private const PSWD = "feibeeghoh6eeMue";
+    
+    //Qui si mettono i valori del proprio DB
+    private const DB_NAME = "example";
+    private const USERNAME = "root";
+    private const ADDRESS = "localhost";
+    private const PSWD = "";
     private $connetion = null;
 
     //true se la connesione è andata a buon fine, false altrimenti
