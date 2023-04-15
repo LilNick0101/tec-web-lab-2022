@@ -9,11 +9,11 @@ $connection = new DBaccess();
 
 $finalResult = "";
 if(!$connection->createDBconnection()){
-    $finalResult .= "<dt>Impossibile accedere al database, ci scusiamo per il disagio :C</dt>";
+    $finalResult .= "<dt>Impossibile accedere al database, ci scusiamo per il disagio</dt>";
 }
 else{
     $players = $connection->getList();
-    //SOLO PER SCOPO DIDATTICO LMAO
+
     $auxArray = array("Data di nascita" => "dataNascita",
         "Luogo" => "luogo",
         "Squadra" => "squadra",
