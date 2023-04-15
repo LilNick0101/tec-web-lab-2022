@@ -31,18 +31,16 @@ class DBaccess{
         $inputQuery = "SELECT * FROM giocatori ORDER BY capitano DESC,nome ASC";
         $plrQuery = mysqli_query($this->connetion,$inputQuery);
 
-        if($plrQuery){
-            if($plrQuery->num_rows > 0){
-                $playerList[] = mysqli_fetch_assoc($plrQuery);
-            }
-
-            $plrQuery->free();
-
-            return $playerList;
-        }
-        else{
+        if(!$plrQuery){
             return false;
         }
+        if($plrQuery->num_rows > 0){
+            $playerList[] = mysqli_fetch_assoc($plrQuery);
+        }
+
+        $plrQuery->free();
+
+        return $playerList;
     }
 }
 
