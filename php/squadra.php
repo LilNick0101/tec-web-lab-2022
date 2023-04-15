@@ -30,7 +30,7 @@ else{
             foreach ($players as $player){
                 $finalResult.= "<dt>". $player["nome"];
                 if($player["capitano"] == 1){
-                    $finalResult.= "- L'ULTIMO ARRIVATO";
+                    $finalResult.= "- CAPITANO";
                 }
                 $finalResult.=  "</dt>\n";
                 $imgString = ".." . DIRECTORY_SEPARATOR . $player["immagine"];
